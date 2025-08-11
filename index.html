@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome-free-7.0.0-web/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<section id="navbar ">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 fixed-top">
+        <div class="container">
+            <a class="navbar-brand  " href="#">
+                <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <!-- Add your logo or site name here -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34"><path d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z" fill="red"></path><g fill-rule="evenodd"><path d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z" fill="#000" fill-opacity=".05"></path><g fill="#fff"><path d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"></path><path d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"></path></g></g><path d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z" fill="#fff"></path><path fill-rule="evenodd" d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z" fill="currentColor"></path></svg>
+               <span class="fw-semibold">Finder</span>
+            </a>
+            
+            <div  class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
+
+                    <li class="nav-item dropdown mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Real Estate
+                                    <br>
+                                    <small class="text-muted">Property listing directory</small>
+                                </a>
+                                <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/screencapture-finder-html-createx-studio-home-real-estate-html-2025-08-08-17_31_08.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Cars
+                                    <br>
+                                    <small class="text-muted">Vehicle sales listings</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/cars.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Contractors
+                                    <br>
+                                    <small class="text-muted">Professional services directory</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/contractors.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Doctors
+                                    <br>
+                                    <small class="text-muted">Medical professionals listings</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/doctors.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Events
+                                    <br>
+                                    <small class="text-muted">Upcoming events listings</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/events.png" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    City Guide
+                                    <br>
+                                    <small class="text-muted">Local places directory</small>
+                                </a>
+                                 <div id="sub-dropdown">
+                                    <img class="w-100" src="assets/imgs/city guid.png" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown  mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Listings
+                        </a>
+                            <div class="dropdown-menu rounded-4 p-4">
+                                <div class="d-flex flex-column flex-lg-row gap-4">
+                                    <div style="min-width: 190px">
+                                        <div class="h6 mb-2 fw-bold ">Real Estate</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Map/Listings Split View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Property Details Page</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Vendor Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold ">Cars</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings Grid View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings List View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter" href="single-entry-cars.html">Car
+                                                    Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2">Contractors</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Side Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Contractor Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">Doctors</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings List View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings Grid View</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Doctor Details Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div style="min-width: 190px">
+                                        <div class=" fw-bold">Events</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Top Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Event Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">City Guide</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Side Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Listings with Top Filters</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Place Details Page</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">Add Property</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Property type</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Location</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Photos and Videos</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Property Details</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Price</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Contact Info</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Ad Promotion</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div style="min-width: 190px">
+                                        <div class=" fw-bold">Add Contractor</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Business Location</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Choose Services</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Profile Details</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Price and Hours</a>
+                                            </li>
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter"
+                                                    href="#">Create First Project</a>
+                                            </li>
+                                        </ul>
+                                        <div class="h6 pt-4 mb-2 fw-bold">Add (Sell) Car</div>
+                                        <ul class="nav flex-column gap-2 mt-0">
+                                            <li class="pt-1">
+                                                <a class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover fw-lighter" href="add-car.html">Add (Sell) Car
+                                                    Page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+
+                    <li class="nav-item dropdown  mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown  mx-2 fs-6">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item  mx-2 fs-6">
+                        <a class="nav-link active" aria-current="page" href="#">Docs</a>
+                    </li>
+                    <li class="nav-item  mx-2 fs-6 ">
+                        <a class="nav-link" href="#">Components</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <span><i class="fa-solid fa-sun"></i></span>
+                <span><i id="person-icon" class="fa-solid fa-user mx-4"></i></span>
+                <button type="button" class="btn btn-danger rounded-4 d-xl-block d-lg-none d-none">
+                    <span><i  class="fa-solid fa-plus"></i></span>
+                    Join Pro Network
+                </button>
+                <button type="button" class="btn btn-danger rounded-4 d-xl-none d-md-block d-block">
+                    <span><i  class="fa-solid fa-plus"></i></span>
+                    Join
+                </button>
+        </div>
+        
+    </nav>
+</section>
+
+<!-- ----------------------------------------------------header section ---------------------------------------------------------------- -->
+
+        <section class="hero-1 d-flex align-items-center justify-content-center text-white">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <h3 class="display-4 fw-bold  mb-4">Explore top-rated certified pros nearby</h3>
+            <!-- Search form -->
+            <form class="bg-white border rounded-4 p-2 mb-4 mb-md-5" data-bs-theme="light">
+              <div class="d-flex flex-column flex-md-row gap-3 p-1">
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2 gap-sm-3">
+                  <div class="position-relative w-100">
+                    <i class="fi-magnifying-glass position-absolute top-50 start-0 translate-middle-y fs-xl text-secondary-emphasis ms-2"></i>
+                    <input type="search" class="form-control form-control-lg form-icon-start border-0 rounded-0 pe-0" placeholder="What service do you need?" required="">
+                  </div>
+                  <hr class="d-sm-none m-0">
+                  <hr class="vr d-none d-sm-block my-2">
+                  <div class="position-relative w-100" style="max-width: 150px">
+                    <i class="fa-solid fa-location-dot position-absolute top-50 start-0  translate-middle-y fs-xl text-secondary-emphasis ms-1"></i>
+                    <input type="text" id="inputsearch" class="form-control form-control-lg form-icon-start border-0 rounded-0 ms-3 pe-0" placeholder="Zip code" required="">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-lg btn-danger ms-3">Search</button>
+              </div>
+            </form>
+
+            <img id="head-img" src="imgs/become-pro-cta.jpg" alt="">
+
+             <img id="head-img2" src="imgs/woman-cutting-with-saw.jpg" alt="">
+
+            <!-- Popular searches -->
+            <div class="d-flex flex-wrap justify-content-center gap-2 pt-2 pt-md-0">
+              <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">Handyperson</button>
+              <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">Electrician</button>
+              <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">Plumbing</button>
+              <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">Landscaping</button>
+              <button type="button" class="btn btn-outline-light rounded-pill mt-1 me-1">Roofing</button>
+            </div>
+          </div>
+        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------------grid---------------------------------------------------------- -->
+
+    <section id="grid" class=" my-5 container" >
+          <div class="container">
+            <!-- Section Header -->
+            <div class="section-header d-flex justify-content-between align-items-center">
+                <h2 class="section-title">Browse pros in your area</h2>
+                <a href="#" class="view-all-link d-flex align-items-center">
+                    View all
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="row">
+                <!-- Row 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center ">
+                        <div class="service-icon me-3">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Flooring</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                           <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Concrete</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                           <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Cleaning</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Handyperson</h4>
+                    </a>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                           <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Painting</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                           <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Plumbing</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Pest control</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Heating & furnace</h4>
+                    </a>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                          <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Electrician</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Roofing</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                            <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Carpentry</h4>
+                    </a>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <a href="#" class="service-item d-flex align-items-center">
+                        <div class="service-icon me-3">
+                           <i class="fa-solid fa-paint-roller"></i>
+                        </div>
+                        <h4 class="service-name">Landscaping</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ---------------------------------------------grid2 =------------------------------------------------------- -->
+    <section id="grid2">
+          <div class="container my-5">
+    <div class="row align-items-center">
+        <!-- Left Side -->
+        <div id="grid2-image" class="col-lg-4 text-center text-lg-start ">
+            <h3 class="fw-bold">Get matched <br> with local pros</h3>
+            <p class="text-muted">for your next home project.</p>
+            <img src="assets/imgs/banner.png" alt="House" class="house-img">
+        </div>
+
+        <!-- Right Side -->
+        <div class="col-lg-8">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4 class="fw-bold">Popular projects near you</h4>
+                <a href="#" class="text-decoration-none">View all &rarr;</a>
+            </div>
+
+            <div class="row g-3">
+                <!-- Item -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/imgs/th01.jpg" class="project-img me-3">
+                    <div>
+                        <h6 class="mb-0">Decks & porches</h6>
+                        <small class="text-warning">★ 4.7 <span class="text-muted">(95)</span></small><br>
+                        <small class="text-muted">From $1,890</small>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/imgs/th01.jpg" class="project-img me-3">
+                    <div>
+                        <h6 class="mb-0">Roof repair</h6>
+                        <small class="text-warning">★ 4.5 <span class="text-muted">(48)</span></small><br>
+                        <small class="text-muted">From $1,120</small>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/imgs/th01.jpg" class="project-img me-3">
+                    <div>
+                        <h6 class="mb-0">Appliance repair</h6>
+                        <small class="text-warning">★ 4.8 <span class="text-muted">(113)</span></small><br>
+                        <small class="text-muted">From $120</small>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/imgs/th01.jpg" class="project-img me-3">
+                    <div>
+                        <h6 class="mb-0">Gutter service</h6>
+                        <small class="text-warning">★ 5.0 <span class="text-muted">(73)</span></small><br>
+                        <small class="text-muted">From $390</small>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/imgs/th01.jpg" class="project-img me-3">
+                    <div>
+                        <h6 class="mb-0">Home cleaning</h6>
+                        <small class="text-warning">★ 4.9 <span class="text-muted">(256)</span></small><br>
+                        <small class="text-muted">From $75</small>
+                    </div>
+                </div>
+                <!-- Item -->
+                <div class="col-md-6 d-flex align-items-center">
+                    <img src="assets/imgs/th01.jpg" class="project-img me-3">
+                    <div>
+                        <h6 class="mb-0">Fence repair</h6>
+                        <small class="text-warning">★ 4.8 <span class="text-muted">(29)</span></small><br>
+                        <small class="text-muted">From $205</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+<!-- -----------------------------------------------------card section--------------------------------------- -->
+
+
+<section class="projects-section my-5 d-lg-block d-md-none d-none">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="section-header d-flex justify-content-between align-items-center">
+                <h2 class="section-title">Popular home projects</h2>
+                <a href="#" class="view-all-link">
+                    View all
+                    <i class="bi bi-chevron-right"></i>
+                </a>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="row g-4">
+                <!-- One-time cleaning service -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <div class="project-image placeholder-img cleaning">
+                              <img class="w-100" src="assets/imgs/01.jpg" alt="">
+                            </div>
+                            <div class="project-overlay">
+                                <h3 class="project-title">One-time cleaning service</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="project-content">
+                            <div class="project-details">
+                                <div class="project-rating">
+                                  <i style="color: orange;" class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.9</span>
+                                    <span class="rating-count">(256)</span>
+                                    <span class="price-label">From</span> $80
+                                </div>
+                                <div class="project-price">
+                                    
+                                     <a href="#" class="btn-book">Book now</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Handyperson for small projects -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <div class="project-image placeholder-img handyman">
+                                <img class="w-100" src="assets/imgs/02.jpg" alt="">
+                            </div>
+                            <div class="project-overlay">
+                                <h3 class="project-title">Handyperson for small projects</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="project-content">
+                            <div class="project-details">
+                                <div class="project-rating">
+                                   <i style="color: orange;" class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.7</span>
+                                    <span class="rating-count">(63)</span>
+                                    <span class="price-label">From</span> $250
+                                </div>
+                                <div class="project-price">
+                                    
+                                     <a href="#" class="btn-book">Book now</a>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fence installation & repair -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <div class="project-image placeholder-img fence">
+                                <img class="w-100" src="assets/imgs/03.jpg" alt="">
+                            </div>
+                            <div class="project-overlay">
+                                <h3 class="project-title">Fence installation & repair</h3>
+                            </div>
+                            
+                        </div>
+                        <div class="project-content">
+                            <div class="project-details">
+                                <div class="project-rating">
+                                    <i style="color: orange;" class="fa-solid fa-star"></i>
+                                    <span class="rating-number">4.8</span>
+                                    <span class="rating-count">(29)</span>
+                                     <span class="price-label">From</span> $310
+                                </div>
+                                <div class="project-price">
+                                   
+                                    <a href="#" class="btn-book">Book now</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+
+        <!-- -------------------------------------tablet and mobile -------------------------------------- -->
+                          <div class="container  d-lg-none  d-block">
+                                            <!-- Second Slide (Additional content for demonstration) -->
+                <div id="popularProjectsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- First Slide -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                                     alt="One-time cleaning service" class="project-image">
+                                <div class="project-overlay">
+                                    <h2 class="project-title">One-time cleaning service</h2>
+                                    <div class="project-details">
+                                        <div class="rating-price">
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                4.9 <span class="review-count">(256)</span>
+                                            </div>
+                                            <div class="price">From $80</div>
+                                        </div>
+                                        <a href="#" class="btn-book">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1609330335378-bb7b3c6cb8de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                                     alt="Handyperson for small projects" class="project-image">
+                                <div class="project-overlay">
+                                    <h2 class="project-title">Handyperson for small projects</h2>
+                                    <div class="project-details">
+                                        <div class="rating-price">
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                4.7 <span class="review-count">(63)</span>
+                                            </div>
+                                            <div class="price">From $250</div>
+                                        </div>
+                                        <a href="#" class="btn-book">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Second Slide (Additional content for demonstration) -->
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                                     alt="Roof installation" class="project-image">
+                                <div class="project-overlay">
+                                    <h2 class="project-title">Roof installation service</h2>
+                                    <div class="project-details">
+                                        <div class="rating-price">
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                4.5 <span class="review-count">(89)</span>
+                                            </div>
+                                            <div class="price">From $1,500</div>
+                                        </div>
+                                        <a href="#" class="btn-book">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-card">
+                                <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" 
+                                     alt="Garden landscaping" class="project-image">
+                                <div class="project-overlay">
+                                    <h2 class="project-title">Garden landscaping</h2>
+                                    <div class="project-details">
+                                        <div class="rating-price">
+                                            <div class="rating">
+                                                <i class="fas fa-star"></i>
+                                                4.8 <span class="review-count">(142)</span>
+                                            </div>
+                                            <div class="price">From $400</div>
+                                        </div>
+                                        <a href="#" class="btn-book">Book now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#popularProjectsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#popularProjectsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#popularProjectsCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#popularProjectsCarousel" data-bs-slide-to="1"></button>
+            </div>
+        </div>
+    </div>
+                          </div>
+
+        
+    </section>
+    <!-- ---------------------------- advise section----------------------------------------- -->
+    <div class="container my-5">
+    <!-- Title Row -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold">Expert advice</h4>
+        <a href="#" class="text-decoration-none">View all &rarr;</a>
+    </div>
+
+    <!-- Advice Items -->
+    <div class="row g-4">
+        <!-- Item 1 -->
+        <div id="advise-section" class="col-md-6 d-flex">
+            <img src="assets/imgs/01 (1).jpg" alt="Cleaning" class="advice-img me-3">
+            <div>
+                <span class="category-badge">Cleaning</span>
+                <h6 class="fw-bold mt-1">Expert advice from masters of cleanliness</h6>
+                <p class="text-muted small mb-1">
+                    Unlock the secrets to a spotless home with tips from cleaning professionals. From tackling stubborn...
+                </p>
+                <small class="text-muted">Oct 19, 2024</small>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div  id="advise-section" class="col-md-6 d-flex">
+            <img src="assets/imgs/02 (1).jpg" alt="Flooring" class="advice-img me-3">
+            <div>
+                <span class="category-badge">Flooring</span>
+                <h6 class="fw-bold mt-1">How to quickly clean laminate flooring</h6>
+                <p class="text-muted small mb-1">
+                    Learn the fastest and most effective methods to clean laminate flooring without damaging its surface...
+                </p>
+                <small class="text-muted">Sep 13, 2024</small>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div  id="advise-section" class="col-md-6 d-flex">
+            <img src="assets/imgs/03 (1).jpg" alt="Air Conditioning" class="advice-img me-3">
+            <div>
+                <span class="category-badge">Air Conditioning</span>
+                <h6 class="fw-bold mt-1">Choose air conditioner with air ionization</h6>
+                <p class="text-muted small mb-1">
+                    Explore the benefits of air conditioners with air ionization technology. Find out how these units improve air...
+                </p>
+                <small class="text-muted">Sep 05, 2024</small>
+            </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div  id="advise-section" class="col-md-6 d-flex">
+            <img src="assets/imgs/04.jpg" alt="Landscaping" class="advice-img me-3">
+            <div>
+                <span class="category-badge">Landscaping</span>
+                <h6 class="fw-bold mt-1">Landscaping ideas from top local experts</h6>
+                <p class="text-muted small mb-1">
+                    Get inspired by creative landscaping ideas from the best local experts. Whether you're revamping your garden...
+                </p>
+                <small class="text-muted">Aug 26, 2024</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------------------------------------------------------notes section----------------------------- -->
+
+<div class="container my-5">
+  <!-- Section Title -->
+  <div class="text-start mb-5">
+    <h2 class="fw-bold">How it works</h2>
+    <p class="text-muted">
+      Effortlessly find, connect, and hire the perfect contractor for your job – all in just three easy steps.
+    </p>
+  </div>
+
+  <!-- Desktop Layout -->
+  <div class="row text-center d-none d-md-flex">
+    <div class="col-md-4">
+      <div class="mb-3">
+        <i class="fa-solid fa-person-dress"></i>
+      </div>
+      <h5 class="fw-bold">Explore</h5>
+      <p class="text-muted">Browse through our curated list of contractors.</p>
+    </div>
+    <div class="col-md-4">
+      <div class="mb-3">
+        <i class="fa-solid fa-message"></i>
+      </div>
+      <h5 class="fw-bold">Connect</h5>
+      <p class="text-muted">Connect with them through our platform.</p>
+    </div>
+    <div class="col-md-4">
+      <div class="mb-3">
+        <i class="fa-solid fa-file-word"></i>
+      </div>
+      <h5 class="fw-bold">Get quotes and hire</h5>
+      <p class="text-muted">Receive quotes from interested contractors.</p>
+    </div>
+  </div>
+
+  <!-- Mobile/Tablet Carousel -->
+  <div id="howItWorksCarousel" class="carousel slide d-md-none" data-bs-ride="carousel">
+    <!-- Indicators (Dots) -->
+    <div class="carousel-indicators ">
+      <button type="button" data-bs-target="#howItWorksCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Explore"></button>
+      <button type="button" data-bs-target="#howItWorksCarousel" data-bs-slide-to="1" aria-label="Connect"></button>
+      <button type="button" data-bs-target="#howItWorksCarousel" data-bs-slide-to="2" aria-label="Get quotes and hire"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner text-center">
+      <div class="carousel-item active">
+        <div class="mb-3">
+         <i class="fa-solid fa-person-dress"></i>
+        </div>
+        <h5 class="fw-bold">Explore</h5>
+        <p class="text-muted">Browse through our curated list of contractors.</p>
+      </div>
+      <div class="carousel-item">
+        <div class="mb-3">
+           <i class="fa-solid fa-message"></i>
+        </div>
+        <h5 class="fw-bold">Connect</h5>
+        <p class="text-muted">Connect with them through our platform.</p>
+      </div>
+      <div class="carousel-item">
+        <div class="mb-3">
+         <i class="fa-solid fa-file-word"></i>
+        </div>
+        <h5 class="fw-bold">Get quotes and hire</h5>
+        <p class="text-muted">Receive quotes from interested contractors.</p>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#howItWorksCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#howItWorksCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+<!-- --------------------------------------------spinner section--------------------------------- -->
+  
+
+<section id="spinner-left" class="position-relative py-5 px-sm-5 px-md-0">
+        <div class="container position-relative z-2 py-lg-5">
+          <div class="row py-2 py-sm-4 py-lg-5">
+            <div class="col-md-4 col-lg-5 py-lg-2 py-xl-4 py-xxl-5 mb-md-3">
+              <h2 class="text-white text-center text-md-start pb-2 pb-sm-3">Grow your business with us. Become a Pro today</h2>
+              <div class="d-flex flex-column flex-sm-row flex-md-column flex-lg-row justify-content-center justify-content-md-start gap-3">
+                <a class="btn btn-lg btn-danger animate-scale" href="add-contractor-location.html">
+                 <i class="fa-solid fa-plus"></i>
+                  Add business
+                </a>
+                <a class="btn btn-lg btn-outline-light animate-slide-end" href="#!">
+                  Learn more  >
+                 
+                </a>
+              </div>
+              <div class="position-absolute top-50 start-50 translate-middle d-none d-md-flex align-items-center justify-content-center" style="width: 164px; height: 164px">
+                <svg class="animate-spin" width="144" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" >
+                  <path id="circlePath" fill="none" d="M 10, 50a 40,40 0 1,1 80,0a 40,40 0 1,1 -80,0"></path>
+                  <text id="text" font-size="7.7" fill="#fff" style="letter-spacing: -.05">
+                    <textPath id="textPath" href="#circlePath">Feature your business customers &nbsp; Feature your business customers</textPath>
+                  </text>
+                </svg>
+                <span class="position-absolute top-0 start-0 w-100 h-100 border border-2 border-white rounded-circle"></span>
+                <span class="position-absolute top-50 start-50 translate-middle border border-2 border-white rounded-circle" style="width: 87px; height: 87px"></span>
+                <span class="position-absolute top-50 start-50 translate-middle bg-danger rounded-circle" style="width: 30px; height: 30px"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="assets/imgs/become-pro-cta.jpg" class="position-absolute top-0 end-0 w-50 h-100 object-fit-cover d-none d-md-block" alt="Image">
+      </section>
+
+<!-- ------------------------------------------------------app section------------------------------------ -->
+  
+<section id="app-section" class="container my-5">
+        <div class="d-flex flex-lg-row flex-md-column flex-sm-column justify-content-around align-items-center text-md-center text-sm-center">
+              <div class="mb-3">
+                <h2 class="fw-bold">Get Finder App</h2>
+                <p class="fs-6">Explore top-rated certified pros</p>
+                <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i>App Store</button>
+                <button type="button" class="btn btn-dark"><i class="fa-brands fa-google-play"></i>Google Play</button>
+              </div>
+              <div class="w-50">
+                <img class="w-100 object-fit-cover " src="assets/imgs/app-cta.png" alt="">
+              </div>
+        </div>
+      </section>
+
+      <!-- ------------------------------------------------------------final section   --------------------------------------- -->
+
+
+
+      <div class="container py-5">
+        <!-- Section Header -->
+        <div class="row section-header">
+            <div class="col-md-6">
+                <h1 class="section-title">Common pricing references</h1>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a href="#" class="view-all">View all <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+        
+        <!-- Pricing Cards -->
+        <div class="row g-4">
+            <!-- Card 1: Cleaning up after repairs -->
+            <div class="col-lg-6">
+                <div class="card pricing-card">
+                    <div class="image-container">
+                        <img src="assets/imgs/03 (1).jpg" 
+                             alt="Cleaning up after repairs" class="pricing-image">
+                    </div>
+                    <div class="card-body">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            4.5 <span class="review-count">(63)</span>
+                        </div>
+                        <h3 class="service-title">Cleaning up after repairs</h3>
+                        <div class="price">From $150</div>
+                        <a href="#" class="btn-book">Book now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2: Installation of flat roofs -->
+            <div class="col-lg-6">
+                <div class="card pricing-card">
+                    <div class="image-container">
+                        <img src="assets/imgs/04 (1).jpg" 
+                             alt="Installation of flat roofs" class="pricing-image">
+                    </div>
+                    <div class="card-body">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            4.3 <span class="review-count">(18)</span>
+                        </div>
+                        <h3 class="service-title">Installation of flat roofs</h3>
+                        <div class="price">From $1,870</div>
+                        <a href="#" class="btn-book">Book now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3: Handyperson for small projects -->
+            <div class="col-lg-6">
+                <div class="card pricing-card">
+                    <div class="image-container">
+                        <img src="assets/imgs/05.jpg" 
+                             alt="Handyperson for small projects" class="pricing-image">
+                    </div>
+                    <div class="card-body">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            4.7 <span class="review-count">(35)</span>
+                        </div>
+                        <h3 class="service-title">Handyperson for small projects</h3>
+                        <div class="price">From $230</div>
+                        <a href="#" class="btn-book">Book now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 4: One-time cleaning service -->
+            <div class="col-lg-6">
+                <div class="card pricing-card">
+                    <div class="image-container">
+                        <img src="assets/imgs/03.jpg" 
+                             alt="One-time cleaning service" class="pricing-image">
+                    </div>
+                    <div class="card-body">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            4.9 <span class="review-count">(127)</span>
+                        </div>
+                        <h3 class="service-title">One-time cleaning service</h3>
+                        <div class="price">From $120</div>
+                        <a href="#" class=" btn-book">Book now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------footer----------------------- -->
+
+    <footer>
+        <div class="demo-content">
+        <div class="container">
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Newsletter Section -->
+        <div class="newsletter-section">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Subscribe to our newsletter</span>
+                    </div>
+                    
+                    <div class="d-flex align-items-center gap-3">
+                        <form class="newsletter-form">
+                            <input  type="email" class="form-control newsletter-input" placeholder="Enter your email address" required>
+                            <button type="submit" class="btn btn-subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <span class="help-text">Need help?</span>
+                        <a href="#" class="contact-link">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Footer Content -->
+        <div class="footer-content">
+            <div class="container">
+                <div class="row ">
+                    <!-- Brand Column -->
+                    <div class="col-lg-5 col-12 mb-5 ">
+                        <div class="footer-brand">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34"><path d="M34.5 16.894v10.731c0 3.506-2.869 6.375-6.375 6.375H17.5h-.85C7.725 33.575.5 26.138.5 17c0-9.35 7.65-17 17-17s17 7.544 17 16.894z" fill="red"></path><g fill-rule="evenodd"><path d="M17.5 13.258c-3.101 0-5.655 2.554-5.655 5.655s2.554 5.655 5.655 5.655 5.655-2.554 5.655-5.655-2.554-5.655-5.655-5.655zm-9.433 5.655c0-5.187 4.246-9.433 9.433-9.433s9.433 4.246 9.433 9.433a9.36 9.36 0 0 1-1.569 5.192l2.397 2.397a1.89 1.89 0 0 1 0 2.671 1.89 1.89 0 0 1-2.671 0l-2.397-2.397a9.36 9.36 0 0 1-5.192 1.569c-5.187 0-9.433-4.246-9.433-9.433z" fill="#000" fill-opacity=".05"></path><g fill="#fff"><path d="M17.394 10.153c-3.723 0-6.741 3.018-6.741 6.741s3.018 6.741 6.741 6.741 6.741-3.018 6.741-6.741-3.018-6.741-6.741-6.741zM7.347 16.894A10.05 10.05 0 0 1 17.394 6.847 10.05 10.05 0 0 1 27.44 16.894 10.05 10.05 0 0 1 17.394 26.94 10.05 10.05 0 0 1 7.347 16.894z"></path><path d="M23.025 22.525c.645-.645 1.692-.645 2.337 0l3.188 3.188c.645.645.645 1.692 0 2.337s-1.692.645-2.337 0l-3.187-3.187c-.645-.646-.645-1.692 0-2.337z"></path></g></g><path d="M23.662 14.663c2.112 0 3.825-1.713 3.825-3.825s-1.713-3.825-3.825-3.825-3.825 1.713-3.825 3.825 1.713 3.825 3.825 3.825z" fill="#fff"></path><path fill-rule="evenodd" d="M23.663 8.429a2.41 2.41 0 0 0-2.408 2.408 2.41 2.41 0 0 0 2.408 2.408 2.41 2.41 0 0 0 2.408-2.408 2.41 2.41 0 0 0-2.408-2.408zm-5.242 2.408c0-2.895 2.347-5.242 5.242-5.242s5.242 2.347 5.242 5.242-2.347 5.242-5.242 5.242-5.242-2.347-5.242-5.242z" fill="currentColor"></path></svg>
+                            <h4 class="footer-brand-text">Finder</h4>
+                        </div>
+                        <p class="footer-description ">
+                            Connecting you with reliable local<br> contractors for all your service needs.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                               <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                               <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Popular Categories Column -->
+                      <a class="btn btn-outline-secondary d-lg-none d-md-none d-sm-block my-3" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Popular categories  </a>
+                    <div id="multiCollapseExample1" class= "col-lg-5  col-md-6 d-lg-block d-md-block collapse multi-collapse ">
+                        <div class="footer-section">
+                            <h5 class="d-lg-block d-md-block d-sm-none d-none">Popular categories</h5>
+                            <div class="d-flex flex-wrap gap-5 ">
+                                <ul class="footer-links">
+                                <li><a href="#">Air conditioning</a></li>
+                                <li><a href="#">Painting</a></li>
+                                <li><a href="#">Electrician</a></li>
+                                <li><a href="#">Concrete</a></li>
+                                <li><a href="#">Plumbing</a></li>
+                                <li><a href="#">Roofing</a></li>
+                            </ul>
+                            <ul class="footer-links">
+                                <li><a href="#">Cleaning</a></li>
+                                <li><a href="#">Heating & furnace</a></li>
+                                <li><a href="#">Carpentry</a></li>
+                                <li><a href="#">Flooring</a></li>
+                                <li><a href="#">Pest control</a></li>
+                                <li><a href="#">Landscaping</a></li>
+                            </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Services Column -->
+                   
+
+                    <!-- Company Column -->
+                     <a class="btn btn-outline-secondary d-lg-none d-md-none d-sm-block my-3" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">Company</a>
+                    <div id="multiCollapseExample2" class="col-lg-2 col-md-6  d-lg-block d-md-block collapse multi-collapse">
+                        <div class="footer-section">
+                            <h5 class="d-lg-block d-md-block d-sm-none d-none">Company</h5>
+                            <ul class="footer-links">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Press & announcements</a></li>
+                                <li><a href="#">Careers at Finder</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Terms of use</a></li>
+                                <li><a href="#">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cities Section -->
+        <div class="cities-section">
+            <div class="container">
+                <h5 class="cities-title">Top cities</h5>
+                <div class="city-tags">
+                    <a href="#" class="city-tag">New York</a>
+                    <a href="#" class="city-tag">Chicago</a>
+                    <a href="#" class="city-tag">Indianapolis</a>
+                    <a href="#" class="city-tag">Boston</a>
+                    <a href="#" class="city-tag">Atlanta</a>
+                    <a href="#" class="city-tag">Cincinnati</a>
+                    <a href="#" class="city-tag">Los Angeles</a>
+                    <a href="#" class="city-tag">Dallas</a>
+                    <a href="#" class="city-tag">Pittsburgh</a>
+                    <a href="#" class="city-tag">Tampa</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright-text">
+                        © All rights reserved. Made by 
+                        <a href="#" class="createx-link">Createx Studio</a>
+                    </p>
+                    
+                    <div class="payment-methods">
+                        <div class="payment-placeholder"><i class="fa-brands fa-cc-visa"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-apple-pay"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-google-pay"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-paypal"></i></div>
+                        <div class="payment-placeholder"><i class="fa-brands fa-cc-mastercard"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </footer>
+
+   <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.js"></script>
+   <script src="fontawesome-free-7.0.0-web/js/all.js"></script>
+   
+</body>
+
+</html>
