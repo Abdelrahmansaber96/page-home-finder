@@ -7,9 +7,9 @@
        }
 
        :root {
-          --primarycolors: rgb(61, 122, 129);
-          --footer-color:rgb(17, 24, 39);
-          --secondary-color:rgb(239, 239, 239);
+          --primarycolors: #81b29a;
+          --footer-color:#3d405b;
+          --secondary-color:#e07a5f;
           --app-color:rgb(251, 238, 238);
        }
 
@@ -188,19 +188,20 @@
        #head-img {
            width: 50vh;
            position: absolute;
-           top: 45vh;
+           top: 30vh;
            left: 7vh;
           object-fit: cover;
-            border-radius: 50px;
+            border-radius: 30px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
             animation: float 3s ease-in-out infinite;
        }
        #head-img2 {
-           width:35vh;
+           width:50vh;
            position: absolute;
           object-fit: cover;
            top: 60vh;
-           right: 5vh;
+           right: 3vh;
+           border-radius: 2vh;
           object-fit: cover;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
        }
