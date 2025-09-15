@@ -7,10 +7,10 @@
        }
 
        :root {
-          --primarycolors: #81b29a;
-          --footer-color:#3d405b;
-          --secondary-color:#e07a5f;
-          --app-color:rgb(251, 238, 238);
+          --primarycolors: #ff0022;
+          --footer-color:#ffffff;
+          --secondary-color:#00bbb8;
+          --app-color:rgb(71, 2, 2);
        }
 
        @import url("assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf");
