@@ -1,3 +1,4 @@
-function abdoTech(){
-    alert("abdo tech");
+function abdoTech() {
+    console.log("abdo elbrens tech");
+    
 }
